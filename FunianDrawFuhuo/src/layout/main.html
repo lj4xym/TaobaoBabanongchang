@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- head 中 -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>H5 网页示例</title>
+</head>
+<body style="margin-left: 10px;margin-right: 10px">
+<div class="alert alert-primary" role="alert">
+    本页面由materializecss构建： <a href="http://www.materializecss.cn/">http://www.materializecss.cn</a>
+</div>
+
+
+<div class="card-panel">
+    <span class="card-title">基本信息</span>
+    <div class="row s12 ">
+        <div class="input-field  inline col s4">
+            <input id="name" type="text" class="validate">
+            <label for="name">姓名</label>
+        </div>
+        <div class="input-field inline col s4">
+            <input id="age" type="text" class="validate">
+            <label for="age">年龄</label>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div>年级</div>
+    <p>
+        <label>
+            <input name="radio" class="with-gap" type="radio" checked id="one"/>
+            <span>一年级</span>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input name="radio" class="with-gap" type="radio" id="two"/>
+            <span>二年级</span>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input class="with-gap" name="radio" type="radio" id="three"/>
+            <span>三年级</span>
+        </label>
+    </p>
+</div>
+<div>爱好</div>
+<p>
+    <label>
+        <input type="checkbox" name="aihao" id="music" class="filled-in"/>
+        <span>听音乐</span>
+    </label>
+</p>
+<p>
+    <label>
+        <input type="checkbox" name="aihao" id="sing" class="filled-in"/>
+        <span>唱歌</span>
+    </label>
+</p>
+<p>
+    <label>
+        <input type="checkbox" name="aihao" id="dance" class="filled-in"/>
+        <span>跳舞</span>
+    </label>
+</p>
+
+
+<div class="input-field col s12">
+    <div>性别</div>
+    <select name="sex" id="sex">
+        <option value="男同学">男同学</option>
+        <option value="女同学">女同学</option>
+    </select>
+</div>
+<div class="switch">
+    <div>开关演示</div>
+    <label>
+        Off
+        <input type="checkbox">
+        <span class="lever"></span>
+        On
+    </label>
+</div>
+
+<p>
+    <span>日期选择器</span>
+    <input type="text" class="datepicker" format="yyyy-MM-dd">
+
+</p>
+<div class="col s12">
+    横排演示:
+    <div class="input-field inline">
+        <input type="text" class="validate" style="width: 50px">
+        <label>从</label>
+    </div>
+    <span>到</span>
+    <div class="input-field inline">
+        <input type="text" class="validate" style="width: 30px">
+        <label>这里</label>
+    </div>
+</div>
+
+<br/>
+<div class="input-field col s12">
+    <textarea id="mark" name="mark" class="materialize-textarea" data-length="120"></textarea>
+    <label for="mark">备注</label>
+</div>
+<div class="row">
+
+    <div class="col s6">
+        <button class="btn waves-effect waves-light " type="button" name="action" onclick="javascript:save()">保存参数
+        </button>
+    </div>
+    <div class="col s6">
+        <button class="btn waves-effect waves-light" type="button" name="action" onclick="javascript:window.ec.start()">
+            启动脚本
+        </button>
+    </div>
+</div>
+<script src="htmljs/jquery.min.js"></script>
+<script src="htmljs/materialize.min.js"></script>
+
+
+</body>
+
+
+<script>
+    $(function () {
+
+
+        //使用jquery进行设置值
+        //取得参数并且进行设置
+        var name = window.ec.getConfig("name");
+        $("#name").val(name);
+
+        var mark = window.ec.getConfig("mark");
+        $("#mark").val(mark);
+
+        var age = window.ec.getConfig("age");
+        $("#age").val(age);
+        var one = window.ec.getConfig("one");
+        if (one === "true") {
+            $("#one").attr("checked", "checked");
+        }
+        var two = window.ec.getConfig("two");
+        if (two === "true") {
+            $("#two").attr("checked", "checked");
+        }
+        var three = window.ec.getConfig("three");
+        if (three === "true") {
+            $("#three").attr("checked", "checked");
+        }
+
+        var music = window.ec.getConfig("music");
+        if (music === "true") {
+            $("#music").attr("checked", "checked");
+        }
+
+        var sing = window.ec.getConfig("sing");
+        if (sing === "true") {
+            $("#sing").attr("checked", "checked");
+        }
+
+        var dance = window.ec.getConfig("dance");
+        if (dance === "true") {
+            $("#dance").attr("checked", "checked");
+        }
+
+        var sex = window.ec.getConfig("sex");
+        $("select[name=sex]").find("option[value='" + sex + "']").attr("selected", true);
+
+        $('select').formSelect();
+        $('.datepicker').datepicker({"format": "yyyy-mm-dd"});
+        window.ec.hideStartBtn();
+    });
+
+
+    //保存参数的函数
+    function save() {
+        var name = $("#name").val();
+        window.ec.saveConfig("name", name);
+        var age = $("#age").val();
+        window.ec.saveConfig("age", age);
+        //一年级
+        window.ec.saveConfig("one", $("#one").prop("checked"));
+        window.ec.saveConfig("two", $("#two").prop("checked"));
+        window.ec.saveConfig("three", $("#three").prop("checked"));
+
+        window.ec.saveConfig("music", $("#music").prop("checked"));
+        window.ec.saveConfig("sing", $("#sing").prop("checked"));
+        window.ec.saveConfig("dance", $("#dance").prop("checked"));
+
+        window.ec.saveConfig("mark", $("#mark").val());
+
+
+        var sex = $("select[name=sex]").find("option:selected").val();
+        window.ec.saveConfig("sex", sex);
+
+        window.ec.toast("保存成功");
+
+
+    }
+
+</script>
+</html>

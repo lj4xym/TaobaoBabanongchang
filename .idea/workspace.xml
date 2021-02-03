@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6703d1c-9403-425f-82b0-c9a31cf48d64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TaobaoBabanongchang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/FreeDrawFruit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/acEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/agentEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/ecloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/sqlite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/thread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/uilayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/css/materialize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/htmljs/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/htmljs/materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/intr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/FunianDrawFuhuo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/acEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/agentEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/ecloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/sqlite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/thread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/uilayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/css/materialize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/htmljs/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/htmljs/materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/intr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/layout/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunianDrawFuhuo/src/update.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nxplODquV5LRVHRqj9TWNQ6sck" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6703d1c-9403-425f-82b0-c9a31cf48d64" name="Default Changelist" comment="" />
+      <created>1612341745792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612341745792</updated>
+      <workItem from="1612341746874" duration="212000" />
+      <workItem from="1612341996832" duration="882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FreeDrawFruit/FreeDrawFruit.iml" filepath="$PROJECT_DIR$/FreeDrawFruit/FreeDrawFruit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunianDrawFuhuo/FunianDrawFuhuo.iml" filepath="$PROJECT_DIR$/FunianDrawFuhuo/FunianDrawFuhuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TaobaoBabanongchang.iml" filepath="$PROJECT_DIR$/.idea/TaobaoBabanongchang.iml" />
+    </modules>
+  </component>
+</project>
