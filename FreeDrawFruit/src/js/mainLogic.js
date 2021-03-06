@@ -1184,6 +1184,11 @@ function shifei_Mianfei() {
             clickPoint(ClosePt_Tasks_Mianfei.x, ClosePt_Tasks_Mianfei.y);
             sleep(2000);
             break;
+        } else if (has(text('抢肥料').clz("android.widget.Button"))) {
+            let node = text("抢肥料").clz("android.widget.Button").getOneNodeInfo(3000);
+            let nodes = node.parent().parent().allChildren();
+            nodes[1].clickCenter();
+            sleep(1000);
         } else if (has(text('"芭芭农场"从这里进入哦').clz("android.view.View"))) {
             click(text("我知道了").clz("android.widget.Button"));
             sleep(1000);
@@ -1199,6 +1204,15 @@ function shifei_Mianfei() {
             let views = nodes[0].parent().parent().parent().parent().parent().parent().allChildren();
             views[2].clickCenter();
             sleep(2000);
+        } else if (has(text('立即兑换').clz("android.widget.Button"))) {
+            //种成了
+            click(text("立即兑换").clz("android.widget.Button"));
+            //结束，提醒一下
+            device.vibrate(1000);
+            image.releaseScreenCapture();
+            logd("果树已种成，赶快兑换吧！");
+            toast("果树已种成，赶快兑换吧！");
+            exit();
         }
     }
 }

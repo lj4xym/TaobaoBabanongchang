@@ -5,286 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6703d1c-9403-425f-82b0-c9a31cf48d64" name="Default Changelist" comment="1.0.0.9221&#10;免费领水果，不含助力。&#10;支付宝和淘宝间相互跳转可能会卡死。">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/l1881.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/jar/main.clz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/jar/main.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/tmp.iec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/tmp3/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/tmp3/resources.arsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/ziptmp.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/pkgsetting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/doTask_Mianfei.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/exceptionHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/initParas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/mainLogic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/zhifubao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/baba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/kaipingLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/kaipingLogo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225044547.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225044547.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225044932.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225044932.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225133013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225133013.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225203927.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225203927.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225205116.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210225205116.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226004853.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226004853.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226005004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226005004.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226005907.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226005907.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010412.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010412.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010548.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010548.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010826.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226010826.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011040.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011304.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011304.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011627.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011849.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226011849.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226025402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226025402.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226230927.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226230927.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226235210.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210226235210.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145726.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145726.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145814.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145814.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145847.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228145847.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164145.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164217.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164217.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164421.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164501.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164501.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164538.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228164538.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228183448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228183448.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195845.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195845.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195905.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195905.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195916.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228195916.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228200338.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210228200338.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301003402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301003402.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301005906.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301005906.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301142234.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301142234.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301142604.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301142604.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301145052.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301145052.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301145907.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301145907.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301151540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301151540.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301151958.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301151958.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301225229.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301225229.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301225511.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301225511.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301230348.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301230348.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231031.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231346.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231346.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231614.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301231614.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232338.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232338.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232437.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232437.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301232504.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301233059.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301233059.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301235705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301235705.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301235854.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210301235854.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000651.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000651.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000707.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000707.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000721.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302000721.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302001544.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302001544.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302004206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302004206.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302010309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302010309.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302013820.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302013820.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302024537.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302024537.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302024630.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302024630.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302025216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302025216.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302025435.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302025435.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302032113.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302032113.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302032447.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302032447.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302033357.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302033357.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302035540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302035540.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302041604.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302041604.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042228.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042228.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042255.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042255.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042357.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302042357.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302210308.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302210308.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302210444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210302210444.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303012053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303012053.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303012124.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303012124.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303014748.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303014748.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303014820.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303014820.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303015153.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303015153.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303015201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303015201.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303025113.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303025113.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303030237.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303030237.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303030249.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303030249.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303035859.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303035859.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303042041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303042041.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303215219.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303215219.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303220807.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210303220807.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304002124.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304002124.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304025522.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304025522.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181357.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181357.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181412.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181412.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181746.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181746.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181953.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304181953.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182001.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182013.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182032.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182032.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182247.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182247.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182255.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304182255.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304184822.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304184822.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304220740.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304220740.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304222029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304222029.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304222204.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304222204.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304225319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304225319.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304234024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304234024.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304234205.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304234205.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304235103.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210304235103.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305002143.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305002143.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305005541.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305005541.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305010013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305010013.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173356.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173356.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173424.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173424.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173848.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305173848.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305185923.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305185923.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305210147.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305210147.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305211231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210305211231.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306005447.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306005447.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306010906.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306010906.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306011244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306011244.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306014601.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306014601.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306015315.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306015315.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306120438.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/20210306120438.uix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_211356_311.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/libs/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/libs/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/libs/uilayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/libs/uilayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/intr.html" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/intr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/js/mainLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/mainLogic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/timer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunianDrawFuhuo/libs/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunianDrawFuhuo/libs/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunianDrawFuhuo/libs/uilayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/FunianDrawFuhuo/libs/uilayout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +98,7 @@
       <workItem from="1614947546616" duration="1120000" />
       <workItem from="1614948758560" duration="2747000" />
       <workItem from="1614958111891" duration="686000" />
-      <workItem from="1614959725999" duration="20805000" />
+      <workItem from="1614959725999" duration="22998000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0&#10;新建多项目。">
       <created>1612343369222</created>
@@ -391,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612343546698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.0.0.9221&#10;免费领水果，不含助力。&#10;支付宝和淘宝间相互跳转可能会卡死。">
+      <created>1615008338368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615008338368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
