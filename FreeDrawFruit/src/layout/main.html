@@ -5,118 +5,117 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- head 中 -->
+    <!--Import materialize.css-->
     <link rel="stylesheet" href="css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <!--    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <title>H5 网页示例</title>
+    <title>参数设置</title>
 </head>
+
 <body style="margin-left: 10px;margin-right: 10px">
-<div class="alert alert-primary" role="alert">
-    本页面由materializecss构建： <a href="http://www.materializecss.cn/">http://www.materializecss.cn</a>
+
+<div class="card-panel" style="margin-left: 10px;margin-right: 10px">
+    <span class="blue-text text-darken-2" style="font-size:15px;">淘宝芭芭农场免费领水果 - 可选任务</span>
+    <p>
+        <label>
+            <input type="checkbox" name="yaoqingzhuli" id="yaoqingzhuli_Mianfei" class="filled-in"
+                   disabled="disabled"/>
+            <span class="black-text">邀请好友助力</span>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="guangzhifubao" id="guangzhifubao" class="filled-in" checked="checked"
+                   onclick="showZhifubao(this)"/>
+            <span class="black-text">逛逛支付宝芭芭农场，并做任务</span>
+        </label>
+    </p>
 </div>
 
-
-<div class="card-panel">
-    <span class="card-title">基本信息</span>
-    <div class="row s12 ">
-        <div class="input-field  inline col s4">
-            <input id="name" type="text" class="validate">
-            <label for="name">姓名</label>
+<div class="card-panel" style="margin-left: 10px;margin-right: 10px">
+    <div class="switch">
+        <div class="row">
+            <label class="blue-text text-darken-2" style="font-size:15px;">淘宝消息里给指定好友助力</label>
+            <label>
+                <input type="checkbox" id="zhuli_Mianfei" onclick="showZhuli_Mianfei(this)">
+                <span class="lever"></span>
+            </label>
         </div>
-        <div class="input-field inline col s4">
-            <input id="age" type="text" class="validate">
-            <label for="age">年龄</label>
+    </div>
+
+    <div class="input-field inline">
+        <input id="friend1_Mianfei" type="text" class="validate" disabled=true>
+        <label for="friend1_Mianfei">置顶好友1的显示名称</label>
+    </div>
+
+    <div class="input-field inline">
+        <input id="friend2_Mianfei" type="text" class="validate" disabled=true>
+        <label for="friend2_Mianfei">置顶好友2的显示名称</label>
+    </div>
+
+    <div class="input-field inline">
+        <input id="friend3_Mianfei" type="text" class="validate" disabled=true>
+        <label for="friend3_Mianfei">置顶好友3的显示名称</label>
+    </div>
+</div>
+
+<div class="card-panel" style="margin-left: 10px;margin-right: 10px" id="tasks_Zhifubao">
+    <span class="blue-text text-darken-2" style="font-size:15px;">支付宝芭芭农场 - 可选任务</span>
+    <p>
+        <label>
+            <input type="checkbox" name="yaoqingzhuli" id="yaoqingzhuli_Zhifubao" class="filled-in"
+                   disabled="disabled"/>
+            <span class="black-text">分享给好友</span>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="guangtaobao" id="guangtaobao" class="filled-in" checked="checked"/>
+            <span class="black-text">逛逛淘宝芭芭农场</span>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="zhuanshulibao" id="zhuanshulibao" class="filled-in" disabled="disabled"/>
+            <span class="black-text">专属肥料礼包领取</span>
+        </label>
+    </p>
+</div>
+
+<div class="card-panel" style="margin-left: 10px;margin-right: 10px">
+    <div class="switch">
+        <div class="row">
+            <label class="blue-text text-darken-2" style="font-size:15px;">支付宝消息里给指定好友助力</label>
+            <label>
+                <input type="checkbox" id="zhuli_Zhifubao" onclick="showZhuli_Zhifubao(this)">
+                <span class="lever"></span>
+            </label>
         </div>
     </div>
-</div>
 
-<div>
-    <div>年级</div>
-    <p>
-        <label>
-            <input name="radio" class="with-gap" type="radio" checked id="one"/>
-            <span>一年级</span>
-        </label>
-    </p>
-    <p>
-        <label>
-            <input name="radio" class="with-gap" type="radio" id="two"/>
-            <span>二年级</span>
-        </label>
-    </p>
-    <p>
-        <label>
-            <input class="with-gap" name="radio" type="radio" id="three"/>
-            <span>三年级</span>
-        </label>
-    </p>
-</div>
-<div>爱好</div>
-<p>
-    <label>
-        <input type="checkbox" name="aihao" id="music" class="filled-in"/>
-        <span>听音乐</span>
-    </label>
-</p>
-<p>
-    <label>
-        <input type="checkbox" name="aihao" id="sing" class="filled-in"/>
-        <span>唱歌</span>
-    </label>
-</p>
-<p>
-    <label>
-        <input type="checkbox" name="aihao" id="dance" class="filled-in"/>
-        <span>跳舞</span>
-    </label>
-</p>
-
-
-<div class="input-field col s12">
-    <div>性别</div>
-    <select name="sex" id="sex">
-        <option value="男同学">男同学</option>
-        <option value="女同学">女同学</option>
-    </select>
-</div>
-<div class="switch">
-    <div>开关演示</div>
-    <label>
-        Off
-        <input type="checkbox">
-        <span class="lever"></span>
-        On
-    </label>
-</div>
-
-<p>
-    <span>日期选择器</span>
-    <input type="text" class="datepicker" format="yyyy-MM-dd">
-
-</p>
-<div class="col s12">
-    横排演示:
     <div class="input-field inline">
-        <input type="text" class="validate" style="width: 50px">
-        <label>从</label>
+        <input id="friend1_Zhifubao" type="text" class="validate" disabled=true>
+        <label for="friend1_Zhifubao">置顶好友1的显示名称</label>
     </div>
-    <span>到</span>
+
     <div class="input-field inline">
-        <input type="text" class="validate" style="width: 30px">
-        <label>这里</label>
+        <input id="friend2_Zhifubao" type="text" class="validate" disabled=true>
+        <label for="friend2_Zhifubao">置顶好友2的显示名称</label>
+    </div>
+
+    <div class="input-field inline">
+        <input id="friend3_Zhifubao" type="text" class="validate" disabled=true>
+        <label for="friend3_Zhifubao">置顶好友3的显示名称</label>
     </div>
 </div>
+
 
 <br/>
-<div class="input-field col s12">
-    <textarea id="mark" name="mark" class="materialize-textarea" data-length="120"></textarea>
-    <label for="mark">备注</label>
-</div>
 <div class="row">
-
     <div class="col s6">
-        <button class="btn waves-effect waves-light " type="button" name="action" onclick="javascript:save()">保存参数
+        <button class="btn waves-effect waves-light " type="button" name="action" onclick="javascript:save()">
+            保存参数
         </button>
     </div>
     <div class="col s6">
@@ -125,89 +124,116 @@
         </button>
     </div>
 </div>
+
 <script src="htmljs/jquery.min.js"></script>
 <script src="htmljs/materialize.min.js"></script>
-
 
 </body>
 
 
 <script>
     $(function () {
-
-
-        //使用jquery进行设置值
-        //取得参数并且进行设置
-        var name = window.ec.getConfig("name");
-        $("#name").val(name);
-
-        var mark = window.ec.getConfig("mark");
-        $("#mark").val(mark);
-
-        var age = window.ec.getConfig("age");
-        $("#age").val(age);
-        var one = window.ec.getConfig("one");
-        if (one === "true") {
-            $("#one").attr("checked", "checked");
-        }
-        var two = window.ec.getConfig("two");
-        if (two === "true") {
-            $("#two").attr("checked", "checked");
-        }
-        var three = window.ec.getConfig("three");
-        if (three === "true") {
-            $("#three").attr("checked", "checked");
+        //使用jquery取得参数并且进行设置
+        let guangzhifubao = window.ec.getConfig("guangzhifubao");
+        if (guangzhifubao === "true") {
+            $("#guangzhifubao").attr("checked", true);
+        } else {
+            $("#guangzhifubao").attr("checked", false);
         }
 
-        var music = window.ec.getConfig("music");
-        if (music === "true") {
-            $("#music").attr("checked", "checked");
+        let zhuli_Mianfei = window.ec.getConfig("zhuli_Mianfei");
+        if (zhuli_Mianfei === "true") {
+            $("#zhuli_Mianfei").attr("checked", true);
+        } else {
+            $("#zhuli_Mianfei").attr("checked", false);
         }
 
-        var sing = window.ec.getConfig("sing");
-        if (sing === "true") {
-            $("#sing").attr("checked", "checked");
+        let friend1_Mianfei = window.ec.getConfig("friend1_Mianfei");
+        $("#friend1_Mianfei").val(friend1_Mianfei);
+        let friend2_Mianfei = window.ec.getConfig("friend2_Mianfei");
+        $("#friend2_Mianfei").val(friend2_Mianfei);
+        let friend3_Mianfei = window.ec.getConfig("friend3_Mianfei");
+        $("#friend3_Mianfei").val(friend3_Mianfei);
+
+        let guangtaobao = window.ec.getConfig("guangtaobao");
+        if (guangtaobao === "true") {
+            $("#guangtaobao").attr("checked", true);
+        } else {
+            $("#guangtaobao").attr("checked", false);
         }
 
-        var dance = window.ec.getConfig("dance");
-        if (dance === "true") {
-            $("#dance").attr("checked", "checked");
+        let zhuli_Zhifubao = window.ec.getConfig("zhuli_Zhifubao");
+        if (zhuli_Zhifubao === "true") {
+            $("#zhuli_Zhifubao").attr("checked", true);
+        } else {
+            $("#zhuli_Zhifubao").attr("checked", false);
         }
 
-        var sex = window.ec.getConfig("sex");
-        $("select[name=sex]").find("option[value='" + sex + "']").attr("selected", true);
+        let friend1_Zhifubao = window.ec.getConfig("friend1_Zhifubao");
+        $("#friend1_Zhifubao").val(friend1_Zhifubao);
+        let friend2_Zhifubao = window.ec.getConfig("friend2_Zhifubao");
+        $("#friend2_Zhifubao").val(friend2_Zhifubao);
+        let friend3_Zhifubao = window.ec.getConfig("friend3_Zhifubao");
+        $("#friend3_Zhifubao").val(friend3_Zhifubao);
 
-        $('select').formSelect();
-        $('.datepicker').datepicker({"format": "yyyy-mm-dd"});
         window.ec.hideStartBtn();
     });
 
 
     //保存参数的函数
     function save() {
-        var name = $("#name").val();
-        window.ec.saveConfig("name", name);
-        var age = $("#age").val();
-        window.ec.saveConfig("age", age);
-        //一年级
-        window.ec.saveConfig("one", $("#one").prop("checked"));
-        window.ec.saveConfig("two", $("#two").prop("checked"));
-        window.ec.saveConfig("three", $("#three").prop("checked"));
-
-        window.ec.saveConfig("music", $("#music").prop("checked"));
-        window.ec.saveConfig("sing", $("#sing").prop("checked"));
-        window.ec.saveConfig("dance", $("#dance").prop("checked"));
-
-        window.ec.saveConfig("mark", $("#mark").val());
-
-
-        var sex = $("select[name=sex]").find("option:selected").val();
-        window.ec.saveConfig("sex", sex);
+        window.ec.saveConfig("guangzhifubao", $("#guangzhifubao").prop("checked"));
+        window.ec.saveConfig("zhuli_Mianfei", $("#zhuli_Mianfei").prop("checked"));
+        window.ec.saveConfig("friend1_Mianfei", $("#friend1_Mianfei").val());
+        window.ec.saveConfig("friend2_Mianfei", $("#friend2_Mianfei").val());
+        window.ec.saveConfig("friend3_Mianfei", $("#friend3_Mianfei").val());
+        window.ec.saveConfig("guangtaobao", $("#guangtaobao").prop("checked"));
+        window.ec.saveConfig("zhuli_Zhifubao", $("#zhuli_Zhifubao").prop("checked"));
+        window.ec.saveConfig("friend1_Zhifubao", $("#friend1_Zhifubao").val());
+        window.ec.saveConfig("friend2_Zhifubao", $("#friend2_Zhifubao").val());
+        window.ec.saveConfig("friend3_Zhifubao", $("#friend3_Zhifubao").val());
 
         window.ec.toast("保存成功");
-
-
     }
+
+
+    // 是否显示支付宝芭芭农场 - 可选任务面板
+    function showZhifubao(checkb) {
+        if (checkb.checked == true) {
+            $("#tasks_Zhifubao").show();
+        } else {
+            $("#tasks_Zhifubao").hide();
+        }
+    }
+
+
+    // 是否能输入淘宝助力的好友名称
+    function showZhuli_Mianfei(switch1) {
+        if (switch1.checked == true) {
+            $("#friend1_Mianfei").attr("disabled", false);
+            $("#friend2_Mianfei").attr("disabled", false);
+            $("#friend3_Mianfei").attr("disabled", false);
+        } else {
+            $("#friend1_Mianfei").attr("disabled", true);
+            $("#friend2_Mianfei").attr("disabled", true);
+            $("#friend3_Mianfei").attr("disabled", true);
+        }
+    }
+
+
+    // 是否能输入支付宝助力的好友名称
+    function showZhuli_Zhifubao(switch2) {
+        if (switch2.checked == true) {
+            $("#friend1_Zhifubao").attr("disabled", false);
+            $("#friend2_Zhifubao").attr("disabled", false);
+            $("#friend3_Zhifubao").attr("disabled", false);
+        } else {
+            $("#friend1_Zhifubao").attr("disabled", true);
+            $("#friend2_Zhifubao").attr("disabled", true);
+            $("#friend3_Zhifubao").attr("disabled", true);
+        }
+    }
+
 
 </script>
 </html>

@@ -41,6 +41,46 @@ Console.prototype.timeEnd = function (label) {
 
 var console = new Console();
 
+
+function HotUpdateWrapper() {
+
+}
+var hotupdater = new HotUpdateWrapper();
+
+/**
+ * 获取热更新得请求结果
+ * @return {string} 字符串
+ */
+HotUpdateWrapper.prototype.getUpdateResp = function () {
+  return ecImporter.getHotUpdateResp();
+}
+
+/**
+ * 获取热更新重新的错误
+ * @return {string} 字符串
+ */
+HotUpdateWrapper.prototype.getErrorMsg = function () {
+  return ecImporter.hotUpdateErrorMsg();
+}
+
+/**
+ * 请求热更新接口，如果是false，也有可能是无需更新，可以使用getErrorMsg查看具体得信息
+ * @return {bool} true 代表需要更新 false代表无需更新
+ */
+HotUpdateWrapper.prototype.updateReq = function () {
+  return ecImporter.hotUpdateReq();
+}
+
+
+/**
+ * 下载热更新请求到得IEC文件
+ * @return {string} 下载后热更新文件得路径，如果为空，也有可能是无需更新
+ */
+HotUpdateWrapper.prototype.updateDownload = function () {
+  return ecImporter.hotUpdateDownload();
+}
+
+
 /**
  * 休眠
  * @param miSecond 毫秒
@@ -49,8 +89,13 @@ function sleep(miSecond) {
     ecImporter.sleep(miSecond);
 }
 
-function toast(msg) {
-    ecImporter.toast(msg);
+function toast(msg,extra) {
+    if(extra){
+        ecImporter.toastWithSetting(msg,JSON.stringify(extra));
+    }else{
+        ecImporter.toast(msg);
+    }
+
 }
 
 function toast1(msg) {
@@ -69,6 +114,19 @@ function getHandler() {
 function formatlog(obj) {
     return obj;
 }
+/**
+ * 设置日志等级,可用于关闭或开启日志
+ * @param level 日志等级，值分别是 debug,info,warn,error,off，排序分别是debug<info<warn<error<off，
+ * 例如 off代表关闭所有级别日志，debug代表打印包含logd,logi,logw,loge的日志，info代表打印包含logi,logw,loge的日志，warn 代表打印包含logw,loge的日志
+ * @param displayToast 是否展示toast消息
+ * @return {bool} 布尔型 true代表成功 false代表失败
+ */
+function setLogLevel(level,displayToast) {
+     ecImporter.setLogLevel(level,displayToast);
+     return true;
+}
+
+
 
 /**
  * 调试日志
@@ -326,9 +384,10 @@ function setIECPath(path) {
     return ecImporter.setIECPath(path);
 }
 
+
 /**
  * 获取要执行的IEC文件路径
- * @return String，null代表无。ts.iec 代表是包内iec文件，其他代代表存储路径中的文件
+ * @return {string}，null代表无。ts.iec 代表是包内iec文件，其他代代表存储路径中的文件
  */
 function getIECPath() {
     return ecImporter.getIECPath();
@@ -425,4 +484,6 @@ function activeSelf(activeType,timeout){
 function activeDevice(ip,activeType,timeout){
     return ecImporter.activeDevice(ip,activeType,timeout);
 }
+
+
 

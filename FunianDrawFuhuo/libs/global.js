@@ -1113,6 +1113,7 @@ function clickRandomRect(rect) {
     } else if (isAgentMode()) {
         return agentEvent.clickRandomRect(rect);
     }
+
     return false;
 }
 

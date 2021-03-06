@@ -685,5 +685,15 @@ UIWrapper.prototype.setWebViewType = function (type) {
     return uiWrapper.setWebViewType(type);
 };
 
+/**
+ * 脚本是否正在运行
+ * @return 布尔型 true 代表成功，false 代表失败
+ */
+UIWrapper.prototype.isScriptRunning = function () {
+    if (uiWrapper == null) {
+        return;
+    }
+    return uiWrapper.isScriptRunning();
+};
 
 

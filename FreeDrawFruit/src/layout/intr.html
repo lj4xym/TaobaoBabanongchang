@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/materialize.min.css">
 
 
-    <title>H5 网页示例</title>
+    <title>权限&模式</title>
 </head>
 <body style="padding: 20px">
 
@@ -66,10 +66,10 @@
 
 <script>
     $(function () {
-        var serviceMode = window.ec.isAccMode() ? "无障碍服务" : "代理服务";
+        let serviceMode = window.ec.isAccMode() ? "无障碍服务" : "代理服务";
         $("#service").text("运行模式: " + serviceMode);
 
-        var serviceOk = false;
+        let serviceOk = false;
         if (window.ec.isAccMode()) {
             serviceOk = window.ec.isAccServiceOk();
         } else {
@@ -82,19 +82,19 @@
         }
 
 
-        var r2 = window.ec.hasFloatViewPermission();
+        let r2 = window.ec.hasFloatViewPermission();
         $("#floatView").prop("checked", r2);
 
 
     });
 
     function openEnv() {
-        var r = window.ec.startEnv();
+        let r = window.ec.startEnv();
         $("#serviceOk").prop("checked", r);
     }
 
     function floatViewPermission() {
-        var r = window.ec.requestFloatViewPermission(10);
+        let r = window.ec.requestFloatViewPermission(10);
         $("#floatView").prop("checked", r);
         window.ec.toast("开启选浮窗权限:" + r);
     }
