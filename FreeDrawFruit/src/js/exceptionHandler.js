@@ -19,14 +19,14 @@ function exceptionHandler() {
                     sleep(200);
                 } else if (has(text("继续努力").clz("android.widget.Button"))) {
                     //若有继续努力则点击
-                    click(text("继续努力").clz("android.widget.Button"));
+                    clickEx(text("继续努力").clz("android.widget.Button"));
                     sleep(300);
                 } else if (has(text("有亲密奖励可领取哦").clz("android.view.View"))) {
                     //若弹出有亲密奖励可领取，则关闭
                     let node = text('立即领取').clz('android.widget.Button').getOneNodeInfo(3000);
                     let sbls = node.parent().allChildren();
                     let lingqu = sbls[3];
-                    lingqu.clickCenter();
+                    lingqu.clickEx();
                     sleep(300);
                 }
             } else if (has(id("com.taobao.taobao:id/poplayer_inner_view").clz("android.widget.FrameLayout")) && has(text("订阅").clz("android.widget.TextView")) && has(text("推荐").clz("android.widget.TextView"))) {
@@ -61,20 +61,20 @@ function exceptionHandler() {
             else if (IsStartZhifubaoExcp) {
                 if (has(text('欢迎来到支付宝').clz('android.view.View'))) {
                     //可能弹出欢迎来到支付宝
-                    click(text('继续赚肥料').clz('android.view.View'));
+                    clickEx(text('继续赚肥料').clz('android.view.View'));
                     sleep(1000);
                 } else if (has(text('关闭').clz('android.widget.Button'))) {
                     //可能弹出可以组队了
-                    click(text('关闭').clz('android.widget.Button'));
+                    clickEx(text('关闭').clz('android.widget.Button'));
                     sleep(1000);
                 } else if (has(text("立即更新").clz("android.widget.TextView"))) {
-                    click(text("稍后再说").clz("android.widget.TextView"));
+                    clickEx(text("稍后再说").clz("android.widget.TextView"));
                     sleep(500);
                 } else if (has(desc("关闭").id("com.alipay.android.phone.discovery.o2ohome:id/image_close"))) {
-                    click(desc("关闭").id("com.alipay.android.phone.discovery.o2ohome:id/image_close"));
+                    clickEx(desc("关闭").id("com.alipay.android.phone.discovery.o2ohome:id/image_close"));
                     sleep(1000);
                 } else if (has(text("支付宝没有响应").pkg("android"))) {
-                    click(text("等待").clz("android.widget.Button"));
+                    clickEx(text("等待").clz("android.widget.Button"));
                 }
             } else if (has(text("EC调试版没有响应").pkg("android"))) {
                 click(text("等待").clz("android.widget.Button"));

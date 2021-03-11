@@ -12,6 +12,8 @@ var QianDao_Tasks_Zhifubao = new Point(null);
 var ChickenLingquClicked = false;
 //支付宝任务中，去喂鸡是否点过
 var QuweijiClicked = false;
+//支付宝任务中，是否逛过淘宝，解决逛了后节点获取的btt仍为去逛逛的问题
+var GuangTBClicked = false;
 //支付宝未知任务数组
 var UnknowTasks_Zhifubao = [];
 
@@ -358,6 +360,7 @@ function isTodo_Zhifubao(table) {
     if (btt === "去挑选" || btt === "去分享") {
         return false;
     } else if (btt === "生产中" || btt === "已完成") {
+        //有时候去喂鸡在节点中是生产中，导致去喂鸡无法去做，尚未解决
         return false;
     } else if (ttl === "专属肥料礼包领取") {
         return false;
@@ -378,8 +381,13 @@ function isTodo_Zhifubao(table) {
         }
     } else if (UnknowTasks_Zhifubao.includes(ttl)) {
         return false;
-    } else if (ttl === "逛逛淘宝芭芭农场" && !guangtaobao_UI) {
-        return false;
+    } else if (ttl === "逛逛淘宝芭芭农场") {
+        if (guangtaobao_UI && !GuangTBClicked) {
+            GuangTBClicked = true;
+            return true;
+        } else {
+            return false;
+        }
     } else {
         return true;
     }

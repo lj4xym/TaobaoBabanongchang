@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6703d1c-9403-425f-82b0-c9a31cf48d64" name="Default Changelist" comment="1.0.0.9221&#10;免费领水果，不含助力。&#10;支付宝和淘宝间相互跳转可能会卡死。">
+    <list default="true" id="f6703d1c-9403-425f-82b0-c9a31cf48d64" name="Default Changelist" comment="1.0.1.9221&#10;施肥时关闭抢肥料弹窗；&#10;施肥时果树种成了点立即兑换，并结束脚本；">
+      <change afterPath="$PROJECT_DIR$/FreeDrawFruit/build/ec.apk.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/20210307013419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/20210307013419.uix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_185717_271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_185821_294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_185825_241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_191739_099.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_191742_739.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/QtScrcpy_20210305_191811_701.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/js/mainLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/mainLogic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/build/jar/main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/build/jar/main.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/build/release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/build/release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/build/tmp.iec" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/build/tmp.iec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/build/tmp3/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/build/tmp3/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/build/ziptmp.apk" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/build/ziptmp.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/pkgsetting.json" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/pkgsetting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/js/exceptionHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/exceptionHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/js/zhifubao.js" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/js/zhifubao.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FreeDrawFruit/src/layout/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/FreeDrawFruit/src/layout/other.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +114,9 @@
       <workItem from="1614947546616" duration="1120000" />
       <workItem from="1614948758560" duration="2747000" />
       <workItem from="1614958111891" duration="686000" />
-      <workItem from="1614959725999" duration="22998000" />
+      <workItem from="1614959725999" duration="23558000" />
+      <workItem from="1615050870462" duration="2330000" />
+      <workItem from="1615466004931" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0&#10;新建多项目。">
       <created>1612343369222</created>
@@ -121,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615008338368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.0.1.9221&#10;施肥时关闭抢肥料弹窗；&#10;施肥时果树种成了点立即兑换，并结束脚本；">
+      <created>1615011691310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615011691310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +168,8 @@
     <MESSAGE value="1.0.0&#10;新建多项目。" />
     <MESSAGE value="1.0.0.000&#10;补充2个未提交的文件。" />
     <MESSAGE value="1.0.0.9221&#10;免费领水果，不含助力。&#10;支付宝和淘宝间相互跳转可能会卡死。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.0.9221&#10;免费领水果，不含助力。&#10;支付宝和淘宝间相互跳转可能会卡死。" />
+    <MESSAGE value="1.0.1.9221&#10;施肥时关闭抢肥料弹窗；&#10;施肥时果树种成了点立即兑换，并结束脚本；" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1.9221&#10;施肥时关闭抢肥料弹窗；&#10;施肥时果树种成了点立即兑换，并结束脚本；" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
