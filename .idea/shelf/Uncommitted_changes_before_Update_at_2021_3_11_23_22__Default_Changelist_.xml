@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]" date="1615476171512" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2021/3/11 23:22 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="FreeDrawFruit/build/release.apk" />
+    <option name="AFTER_PATH" value="FreeDrawFruit/build/release.apk" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]/release.apk" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="FreeDrawFruit/build/ziptmp.apk" />
+    <option name="AFTER_PATH" value="FreeDrawFruit/build/ziptmp.apk" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]/ziptmp.apk" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="FreeDrawFruit/build/tmp.iec" />
+    <option name="AFTER_PATH" value="FreeDrawFruit/build/tmp.iec" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]/tmp.iec" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="FreeDrawFruit/build/jar/main.jar" />
+    <option name="AFTER_PATH" value="FreeDrawFruit/build/jar/main.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_11_23_22_[Default_Changelist]/main.jar" />
+  </binary>
+</changelist>

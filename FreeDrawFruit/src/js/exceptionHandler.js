@@ -19,14 +19,14 @@ function exceptionHandler() {
                     sleep(200);
                 } else if (has(text("继续努力").clz("android.widget.Button"))) {
                     //若有继续努力则点击
-                    click(text("继续努力").clz("android.widget.Button"));
+                    clickEx(text("继续努力").clz("android.widget.Button"));
                     sleep(300);
                 } else if (has(text("有亲密奖励可领取哦").clz("android.view.View"))) {
                     //若弹出有亲密奖励可领取，则关闭
                     let node = text('立即领取').clz('android.widget.Button').getOneNodeInfo(3000);
                     let sbls = node.parent().allChildren();
                     let lingqu = sbls[3];
-                    lingqu.clickCenter();
+                    lingqu.clickEx();
                     sleep(300);
                 }
             } else if (has(id("com.taobao.taobao:id/poplayer_inner_view").clz("android.widget.FrameLayout")) && has(text("订阅").clz("android.widget.TextView")) && has(text("推荐").clz("android.widget.TextView"))) {
@@ -77,6 +77,8 @@ function exceptionHandler() {
                     click(text("等待").clz("android.widget.Button"));
                 }
             } else if (has(text("EC调试版没有响应").pkg("android"))) {
+                click(text("等待").clz("android.widget.Button"));
+            } else if (has(text("免费领水果没有响应").pkg("android"))) {
                 click(text("等待").clz("android.widget.Button"));
             } else if (has(text("允许").clz("android.widget.Button")) && has(text("拒绝").clz("android.widget.Button"))) {
                 //允许EC打开其他应用
