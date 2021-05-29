@@ -19,7 +19,7 @@ Console.prototype.log = function (msg) {
  */
 Console.prototype.time = function (label) {
     let t = ecImporter.time();
-    this.timerMap[label]=t;
+    this.timerMap[label] = t;
     return t;
 }
 
@@ -30,8 +30,8 @@ Console.prototype.time = function (label) {
  */
 Console.prototype.timeEnd = function (label) {
     let t1 = ecImporter.time();
-    let d2 =this.timerMap[label];
-    if(d2 ==null || d2==undefined){
+    let d2 = this.timerMap[label];
+    if (d2 == null || d2 == undefined) {
         return 0;
     }
     let t2 = t1 - d2;
@@ -45,6 +45,7 @@ var console = new Console();
 function HotUpdateWrapper() {
 
 }
+
 var hotupdater = new HotUpdateWrapper();
 
 /**
@@ -52,7 +53,7 @@ var hotupdater = new HotUpdateWrapper();
  * @return {string} 字符串
  */
 HotUpdateWrapper.prototype.getUpdateResp = function () {
-  return ecImporter.getHotUpdateResp();
+    return ecImporter.getHotUpdateResp();
 }
 
 /**
@@ -60,7 +61,7 @@ HotUpdateWrapper.prototype.getUpdateResp = function () {
  * @return {string} 字符串
  */
 HotUpdateWrapper.prototype.getErrorMsg = function () {
-  return ecImporter.hotUpdateErrorMsg();
+    return ecImporter.hotUpdateErrorMsg();
 }
 
 /**
@@ -68,7 +69,7 @@ HotUpdateWrapper.prototype.getErrorMsg = function () {
  * @return {bool} true 代表需要更新 false代表无需更新
  */
 HotUpdateWrapper.prototype.updateReq = function () {
-  return ecImporter.hotUpdateReq();
+    return ecImporter.hotUpdateReq();
 }
 
 
@@ -77,7 +78,7 @@ HotUpdateWrapper.prototype.updateReq = function () {
  * @return {string} 下载后热更新文件得路径，如果为空，也有可能是无需更新
  */
 HotUpdateWrapper.prototype.updateDownload = function () {
-  return ecImporter.hotUpdateDownload();
+    return ecImporter.hotUpdateDownload();
 }
 
 
@@ -89,10 +90,10 @@ function sleep(miSecond) {
     ecImporter.sleep(miSecond);
 }
 
-function toast(msg,extra) {
-    if(extra){
-        ecImporter.toastWithSetting(msg,JSON.stringify(extra));
-    }else{
+function toast(msg, extra) {
+    if (extra) {
+        ecImporter.toastWithSetting(msg, JSON.stringify(extra));
+    } else {
         ecImporter.toast(msg);
     }
 
@@ -114,6 +115,7 @@ function getHandler() {
 function formatlog(obj) {
     return obj;
 }
+
 /**
  * 设置日志等级,可用于关闭或开启日志
  * @param level 日志等级，值分别是 debug,info,warn,error,off，排序分别是debug<info<warn<error<off，
@@ -121,11 +123,10 @@ function formatlog(obj) {
  * @param displayToast 是否展示toast消息
  * @return {bool} 布尔型 true代表成功 false代表失败
  */
-function setLogLevel(level,displayToast) {
-     ecImporter.setLogLevel(level,displayToast);
-     return true;
+function setLogLevel(level, displayToast) {
+    ecImporter.setLogLevel(level, displayToast);
+    return true;
 }
-
 
 
 /**
@@ -287,6 +288,15 @@ function exit() {
     ecImporter.exit();
 }
 
+
+/**
+ * 判断EC运行的当前线程是否处于退出状态，可用判断脚本是否退出，或者子线程是否退出
+ * @return true 已退出
+ */
+function isScriptExit(){
+    return java.lang.Thread.currentThread().getName().contains("-interrupt")
+}
+
 /**
  * 重启脚本，适合无限循环，或者有异常的情况可以下载最新的iec再次执行，避免进入UI才能热更新,
  * 注意: 该方法威力巨大，请自行控制好是否自动重启，否则只能强杀进程才能停止
@@ -365,6 +375,21 @@ function closeEnv(skinAccPage) {
     return ecImporter.closeEnv(skinAccPage);
 }
 
+/**
+ * 设置壁纸服务函数
+ * @return 布尔型  true代表启动成功，false代表启动失败
+ */
+function setWallpaperService() {
+    return ecImporter.setWallpaperService();
+}
+
+/**
+ * 是否设置壁纸成功
+ * @return 布尔型  true代表成功，false代表失败
+ */
+function isWallpaperServiceSet() {
+    return ecImporter.isWallpaperServiceSet();
+}
 
 
 /**
@@ -470,8 +495,8 @@ function object2JsonString(o) {
  * @param timeout 超时时间
  * @return {string} 激活成功：代表成功，其他都是错误消息
  */
-function activeSelf(activeType,timeout){
-    return ecImporter.activeSelf(activeType,timeout);
+function activeSelf(activeType, timeout) {
+    return ecImporter.activeSelf(activeType, timeout);
 }
 
 /**
@@ -481,8 +506,8 @@ function activeSelf(activeType,timeout){
  * @param timeout 超时时间
  * @return {string} 激活成功：代表成功，其他都是错误消息
  */
-function activeDevice(ip,activeType,timeout){
-    return ecImporter.activeDevice(ip,activeType,timeout);
+function activeDevice(ip, activeType, timeout) {
+    return ecImporter.activeDevice(ip, activeType, timeout);
 }
 
 

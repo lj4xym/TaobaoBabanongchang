@@ -74,6 +74,7 @@ ShellWrapper.prototype.execCommand = function (command) {
 
 /**
  * 执行root模式下，相关的命令，需要有root权限
+ * 运行环境: 无限制
  * @param command 命令
  * @return {string|null}
  */
@@ -83,6 +84,18 @@ ShellWrapper.prototype.sudo = function (command) {
     }
     var x = shellWrapper.sudo(command);
     return javaString2string(x);
+};
+
+/**
+ * 请求授予root权限
+ * 运行环境: 无限制
+ * @return {boolean} true代表有root权限
+ */
+ShellWrapper.prototype.su = function () {
+    if (shellWrapper == null) {
+        return null;
+    }
+    return shellWrapper.su();
 };
 
 

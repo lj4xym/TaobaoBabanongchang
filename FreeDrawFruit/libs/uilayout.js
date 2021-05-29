@@ -515,6 +515,59 @@ UIWrapper.prototype.closeLogWindow = function () {
     return uiWrapper.closeLogWindow();
 };
 
+
+
+
+/**
+ * 新增启停浮窗按钮
+ * @param tag 按钮的标签
+ * @param icon 按钮的图标路径，工程中的res/文件下的图片，例如填写 res/a.png
+ * @param width 按钮的宽度，单位是dp，系统按钮是36
+ * @param height 按钮的高度，单位是dp，系统按钮是36
+ * @param index 按钮的加入索引，-1代表往后添加，0代表的是加入到第一位
+ * @param onClickListener 按钮的点击回调
+ * @return 布尔型 true代表成功，false代表失败
+ */
+UIWrapper.prototype.addCtrlView = function ( tag, icon,width,  height,index,onClickListener) {
+    if (uiWrapper == null) {
+        return null;
+    }
+    return uiWrapper.addCtrlView(tag,icon,width,height,index,onClickListener);
+};
+
+/**
+ * 删除启停浮窗按钮
+ * @param tag 按钮的标签，默认都有main_page_ctrl: 主页，log_window_ctrl:日志窗口控制，script_status_ctrl:脚本启停，log_close_ctrl: 日志框关闭
+ * @return 布尔型 true代表成功，false代表失败
+ */
+UIWrapper.prototype.removeCtrlView = function ( tag) {
+    if (uiWrapper == null) {
+        return null;
+    }
+    return uiWrapper.removeCtrlView(tag);
+};
+
+/**
+ * 删除所有启停浮窗按钮
+ * @return 布尔型 true代表成功，false代表失败
+ */
+UIWrapper.prototype.removeAllCtrlView = function () {
+    if (uiWrapper == null) {
+        return null;
+    }
+    return uiWrapper.removeAllCtrlView();
+};
+/**
+ * 重置启停浮窗按钮
+ * @return 布尔型 true代表成功，false代表失败
+ */
+UIWrapper.prototype.resetDefaultCtrlView = function () {
+    if (uiWrapper == null) {
+        return null;
+    }
+    return uiWrapper.resetDefaultCtrlView();
+};
+
 /**
  * 显示启停浮窗
  * @return 布尔型 true代表成功，false代表失败

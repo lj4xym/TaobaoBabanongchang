@@ -999,7 +999,12 @@ ImageWrapper.prototype.saveBitmap = function (bitmap, format,q,path) {
     return imageWrapper.saveBitmap(bitmap, format,q,path);
 };
 
-
+ImageWrapper.prototype.readResAutoImage = function (res) {
+    if (res == null) {
+        return false;
+    }
+    return imageWrapper.readResAutoImage(res);
+};
 
 
 function OCRWrapper() {

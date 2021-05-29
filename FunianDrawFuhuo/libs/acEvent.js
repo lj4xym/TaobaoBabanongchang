@@ -352,7 +352,9 @@ AcEventWrapper.prototype.clickCenter = function (rect) {
     if (acEventWrapper == null) {
         return null;
     }
-    if (typeof rect == Rect) {
+    if (typeof rect == "string") {
+
+    } else {
         rect = rect.toJSONString();
     }
     return acEventWrapper.clickCenter(rect);
@@ -475,7 +477,12 @@ AcEventWrapper.prototype.clickRandomRect = function (rect) {
     if (rect == null) {
         return false;
     }
-    return acEventWrapper.clickRandomRect(rect.toJSONString());
+    if (typeof rect == "string") {
+
+    } else {
+        rect = rect.toJSONString();
+    }
+    return acEventWrapper.clickRandomRect(rect);
 };
 /**
  * 随机长点击区域中的坐标
@@ -494,7 +501,12 @@ AcEventWrapper.prototype.longClickRandomRect = function (rect) {
     if (rect == null) {
         return false;
     }
-    return acEventWrapper.longClickRandomRect(rect.toJSONString());
+    if (typeof rect == "string") {
+
+    } else {
+        rect = rect.toJSONString();
+    }
+    return acEventWrapper.longClickRandomRect(rect);
 };
 
 
@@ -1247,11 +1259,11 @@ AcEventWrapper.prototype.isValidNodeInfo = function (uniqueId) {
  * @param algorithm 节点查找算法,默认是nsf，分别有 nsf = 节点静态算法，bsf= 广度优先， dsf=深度度优先
  * @return {boolean|*}
  */
-AcEventWrapper.prototype.setFetchNodeMode = function (mode, fetchInvisibleNode, fetchNotImportantNode,algorithm) {
+AcEventWrapper.prototype.setFetchNodeMode = function (mode, fetchInvisibleNode, fetchNotImportantNode, algorithm) {
     if (acEventWrapper == null) {
         return null;
     }
-    return acEventWrapper.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,algorithm);
+    return acEventWrapper.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, algorithm);
 };
 
 AcEventWrapper.prototype.removeNodeFlag = function (flag) {
@@ -1469,9 +1481,9 @@ AcEventWrapper.prototype.lastNodeEventTime = function () {
 };
 
 
-AcEventWrapper.prototype.press = function (x,y,delay) {
+AcEventWrapper.prototype.press = function (x, y, delay) {
     if (agentEventWrapper == null) {
         return null;
     }
-    return acEventWrapper.press(x,y,delay);
+    return acEventWrapper.press(x, y, delay);
 };

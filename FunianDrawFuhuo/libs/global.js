@@ -56,6 +56,7 @@ function readConfigLong(key) {
 function readConfigString(key) {
     return javaString2string(configWrapper.getParamString(key));
 }
+
 /**
  * 删除UI配置
  *
@@ -65,6 +66,7 @@ function readConfigString(key) {
 function deleteConfig(key) {
     return configWrapper.deleteConfig(key);
 }
+
 /**
  * 是否是agent模式
  */
@@ -660,9 +662,7 @@ Point.prototype.setY = function (y) {
 Point.prototype.toJSONString = function () {
     return JSON.stringify(this);
 };
-Point.prototype.toString = function () {
-    return JSON.stringify(this);
-};
+
 
 function Rect(javaRect) {
     this.top = 0;
@@ -721,10 +721,6 @@ Rect.prototype.setBottom = function (bottom) {
 Rect.prototype.toJSONString = function () {
     return JSON.stringify(this);
 };
-Rect.prototype.toString = function () {
-    return JSON.stringify(this);
-};
-
 
 function Match(javaMatch) {
     this.point = null;
@@ -739,9 +735,6 @@ function Match(javaMatch) {
 }
 
 Match.prototype.toJSONString = function () {
-    return JSON.stringify(this);
-};
-Match.prototype.toString = function () {
     return JSON.stringify(this);
 };
 
@@ -1049,7 +1042,7 @@ NodeInfo.prototype.isValid = function () {
     return isValidNodeInfo(this);
 };
 
-NodeInfo.prototype.toString = function () {
+NodeInfo.prototype.toJSONString = function () {
     return JSON.stringify(this);
 };
 
@@ -2052,6 +2045,7 @@ function setLogViewSize(w, h, textSize, backgroundColor) {
  *      backgroundColor:背景颜色，例如#336699
  *      title:日志框标题
  *      showTitle：是否显示标题
+ *      backgroundImg 背景图片，放到工程的res文件夹，录入填写res/a.png
  * @return bool true代表成功，false代表失败
  */
 function setLogViewSizeEx(map) {
@@ -2361,12 +2355,13 @@ function isValidNodeInfo(nodeinfo) {
  */
 function setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode) {
     if (isAccMode()) {
-        return acEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,"nsf");
+        return acEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, "nsf");
     } else if (isAgentMode()) {
-        return agentEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,"nsf");
+        return agentEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, "nsf");
     }
     return false;
 }
+
 /**
  * 设置获取节点的模式
  * @param mode 1 是增强型， 2 是快速型，默认是增强型
@@ -2375,11 +2370,11 @@ function setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode) {
  * @param algorithm 节点查找算法,默认是nsf，分别有 nsf = 节点静态算法，bsf= 广度优先， dsf=深度度优先
  * @return boolean|布尔型
  */
-function setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,algorithm) {
+function setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, algorithm) {
     if (isAccMode()) {
-        return acEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,algorithm);
+        return acEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, algorithm);
     } else if (isAgentMode()) {
-        return agentEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,algorithm);
+        return agentEvent.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, algorithm);
     }
     return false;
 }
@@ -3114,11 +3109,7 @@ function scrollDownNodeInfo(nodeinfo) {
  */
 function readResAutoImage(fileName) {
     var id = null;
-    if (isAccMode()) {
-        id = acEvent.readResAutoImage(fileName);
-    } else if (isAgentMode()) {
-        id = agentEvent.readResAutoImage(fileName);
-    }
+    id = image.readResAutoImage(fileName);
     if (id == null) {
         return null;
     }
@@ -3141,8 +3132,6 @@ function lastNodeEventTime() {
 }
 
 
-
-
 /**
  * 长按住事件
  * @param x x坐标
@@ -3151,11 +3140,11 @@ function lastNodeEventTime() {
  * @return {bool} true 成功 false 失败
  */
 
-function press(x,y,delay) {
+function press(x, y, delay) {
     if (isAccMode()) {
-        return acEvent.press(x,y,delay);
+        return acEvent.press(x, y, delay);
     } else if (isAgentMode()) {
-        return agentEvent.press(x,y,delay);
+        return agentEvent.press(x, y, delay);
     }
     return false;
 }

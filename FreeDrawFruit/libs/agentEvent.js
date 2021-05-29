@@ -66,7 +66,9 @@ EventWrapper.prototype.clickCenter = function (rect) {
     if (agentEventWrapper == null) {
         return null;
     }
-    if (typeof rect == Rect) {
+    if (typeof rect == "string") {
+
+    } else {
         rect = rect.toJSONString();
     }
     return agentEventWrapper.clickCenter(rect);
@@ -738,7 +740,12 @@ EventWrapper.prototype.longClickRandomRect = function (rect) {
     if (rect == null) {
         return false;
     }
-    return agentEventWrapper.longClickRandomRect(rect.toJSONString());
+    if (typeof rect == "string") {
+
+    } else {
+        rect = rect.toJSONString();
+    }
+    return agentEventWrapper.longClickRandomRect(rect);
 };
 
 
@@ -1081,7 +1088,12 @@ EventWrapper.prototype.clickRandomRect = function (rect) {
     if (rect == null) {
         return false;
     }
-    return agentEventWrapper.clickRandomRect(rect.toJSONString());
+    if (typeof rect == "string") {
+
+    } else {
+        rect = rect.toJSONString();
+    }
+    return agentEventWrapper.clickRandomRect(rect);
 };
 
 /**
@@ -1508,11 +1520,11 @@ EventWrapper.prototype.isValidNodeInfo = function (uniqueId) {
  * @param algorithm 节点查找算法,默认是nsf，分别有 nsf = 节点静态算法，bsf= 广度优先， dsf=深度度优先
  * @return {boolean|*}
  */
-EventWrapper.prototype.setFetchNodeMode = function (mode, fetchInvisibleNode, fetchNotImportantNode,algorithm) {
+EventWrapper.prototype.setFetchNodeMode = function (mode, fetchInvisibleNode, fetchNotImportantNode, algorithm) {
     if (agentEventWrapper == null) {
         return null;
     }
-    return agentEventWrapper.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode,algorithm);
+    return agentEventWrapper.setFetchNodeMode(mode, fetchInvisibleNode, fetchNotImportantNode, algorithm);
 };
 
 
@@ -1720,12 +1732,12 @@ EventWrapper.prototype.lastNodeEventTime = function () {
  * @param delay 长按时间  毫秒
  * @return {bool} true 成功 false 失败
  */
-EventWrapper.prototype.press = function (x,y,delay) {
+EventWrapper.prototype.press = function (x, y, delay) {
     if (agentEventWrapper == null) {
         return null;
     }
-       let d = [
-        {"action":0,"x":x,"y":y,"pointer":1,"delay":1},
-        {"action":1,"x":x,"y":y,"pointer":1,"delay":delay}]
-    return multiTouch(d,null,null,delay+2);
+    let d = [
+        {"action": 0, "x": x, "y": y, "pointer": 1, "delay": 1},
+        {"action": 1, "x": x, "y": y, "pointer": 1, "delay": delay}]
+    return multiTouch(d, null, null, delay + 2);
 };

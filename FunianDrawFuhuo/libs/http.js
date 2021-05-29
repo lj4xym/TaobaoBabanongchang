@@ -226,6 +226,45 @@ WebSocket.prototype.connect = function () {
     }
 };
 
+
+/**
+ * 重置连接
+ * @return {bool} true 代表成功 false代表失败
+ */
+WebSocket.prototype.reset = function () {
+    if (this.websocketClient != null) {
+        return this.websocketClient.reset();
+    }
+    return false;
+};
+
+
+/**
+ * 开始同步重新链接
+ * @return {bool} true 代表链接成功 false代表失败
+ */
+WebSocket.prototype.reconnectBlocking = function () {
+    if (this.websocketClient != null) {
+        return this.websocketClient.reconnectBlocking();
+    }
+    return false;
+};
+
+
+/**
+ * 开始同步链接
+ * @param timeout 链接超时时间 单位是毫秒
+ * @return {bool} true 代表链接成功 false代表失败
+ */
+WebSocket.prototype.connectBlocking = function (timeout) {
+    if (this.websocketClient != null) {
+        return this.websocketClient.connectBlocking(timeout);
+    }
+    return false;
+};
+
+
+
 /**
  * 是否已经关闭
  * @return true 代表已经关闭，false 未关闭
@@ -237,6 +276,8 @@ WebSocket.prototype.isClosed = function () {
     return true;
 };
 
+
+
 /**
  * 是否已经连接了
  * @return true 代表已经连接，false 未连接
@@ -245,15 +286,16 @@ WebSocket.prototype.isConnected = function () {
     if (this.websocketClient != null) {
         return this.websocketClient.isConnected();
     }
-    return true;
+    return false;
 };
+
+
 /**
  * 关闭链接
  */
 WebSocket.prototype.close = function () {
     this.websocketClient.close();
 };
-
 
 /**
  * 发送文本消息
